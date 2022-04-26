@@ -1,0 +1,7 @@
+{
+  "common": {
+    "projectname": "test",
+    "welcome" : "{{word}}"
+  },
+  "special": "Page Test"
+}

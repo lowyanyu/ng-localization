@@ -1,0 +1,11 @@
+<div style="text-align:center">
+  <p>{{ 'common.projectname' | translate }}</p>
+  <p>{{ 'common.welcome' | translate:param }}</p>
+  <p>{{ test | translate }}</p>
+  <p>{{value}}</p>
+  <button type="button" (click)="useChinese()">中文</button>
+  <button type="button" (click)="useEnglish()">English</button>
+  <button type="button" (click)="getKey()">取得</button>
+  <button type="button" routerLink="/info">go</button>
+</div>
+<router-outlet></router-outlet>
